@@ -1,0 +1,16 @@
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\bin\Debug\FormCustomer.exe.config
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\bin\Debug\FormCustomer.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\bin\Debug\FormCustomer.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.csproj.AssemblyReference.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Properties.Resources.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.csproj.GenerateResource.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.csproj.CoreCompileInputs.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.FormCustomerExample1.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example2.MainExample2.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example2.EditForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example2.NewForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example3.MainExample3.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example3.EditForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\FormCustomer\FormCustomer\obj\Debug\FormCustomer.Example3.NewForm.resources

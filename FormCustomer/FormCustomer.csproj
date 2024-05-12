@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AC9FEAC-6B5E-4789-91A7-C88EA2E6735B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormCustomer</RootNamespace>
+    <AssemblyName>FormCustomer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consts.cs" />
+    <Compile Include="Example1\FormCustomerExample1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example1\FormCustomerExample1.Designer.cs">
+      <DependentUpon>FormCustomerExample1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example2\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example2\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example2\MainExample2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example2\MainExample2.Designer.cs">
+      <DependentUpon>MainExample2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example2\NewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example2\NewForm.Designer.cs">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example3\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example3\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example3\MainExample3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example3\MainExample3.Designer.cs">
+      <DependentUpon>MainExample3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example3\NewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example3\NewForm.Designer.cs">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Example1\FormCustomerExample1.resx">
+      <DependentUpon>FormCustomerExample1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example2\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example2\MainExample2.resx">
+      <DependentUpon>MainExample2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example2\NewForm.resx">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example3\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example3\MainExample3.resx">
+      <DependentUpon>MainExample3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example3\NewForm.resx">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skip-previous-circle-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skip-next-circle-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-plus-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-minus-regular-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
